@@ -1,0 +1,85 @@
+--*{
+    border: 2px solid yellow;
+}
+
+/* INICIO DO COD. MENU  */
+.textoDaCaixas {
+    text-align: center;
+    overflow: hidden;
+    --margin-top: 10px;
+    --border: 5px solid green;            
+    }
+
+    .caixa::after {
+    content: '';
+    display: inline-block; 
+    width: 100%; 
+    height: 0; 
+    }
+
+    .formatoDaCaixa {
+    width: 33%;
+    height: 150px;
+    display: inline-block;
+    --margin-bottom: 20px;
+    --padding: 40%;
+    }
+    
+    .formatoDaCaixaMenu {
+    width: 23%;
+    height: 30px;
+    display: inline-block;
+    margin-top: 10px;
+    border-left: 4px solid white;
+    border-bottom: 3px solid white; 
+    border-top: 3px solid black;
+    border-right: 3px solid black;   
+    }
+         
+    .formaTextoMenu {
+    padding-bottom: 20px;        
+    }    
+        
+    .estiloDasCaixas {
+    background-color: blue;    
+    }
+
+    .menu a {
+        font-size: x-large;    
+        color:white;
+        text-decoration:none;
+        position: relative;
+        top: 2px;
+        }   
+    
+    .menu{
+        background-color:red;
+        width: 100%;
+        }
+/* FINAL DO COD. MENU  */
+
+     
+#rodape{
+    text-align: center;
+}
+
+.fundo3{
+    background-image: url("./capa1.jpg");
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position-x:center;
+    background-position-y: 90%;
+    background-attachment: fixed;
+    image-rendering: auto;    
+    }
+
+.fundoMapa{
+    background-image: url("./logmaps2.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position-x:90%;
+    background-position-y: 60%;
+    background-attachment: fixed;
+    image-rendering: auto;    
+    }
+
